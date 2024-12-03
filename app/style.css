@@ -15,8 +15,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
-    color: white;
+    background-color :black;
+    color: whitesmoke;
 }
 header{
     margin-top: 20px;
@@ -115,14 +115,15 @@ span{
     font-size: 1.6rem;
 }
 .home-img{
-    border-radius: 10%;
-    border-color: #1b98ce;
+    border-radius: 50%;
+    outline: #1b98ce;
+    outline-width: 1rem;
 }
 .home-img img{
     position: relative;
-    width: 32vw;
+    width: 30vw;
     height: 32vw;
-    border-radius: 10%;
+    border-radius: 20%;
     box-shadow: 0 0 25px solid #1b98ce;
     cursor: pointer;
     transition: 0.2s linear;
@@ -195,7 +196,7 @@ span{
 }
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 5px solid #b74b4b;
     }
 }
 @keyframes words{
